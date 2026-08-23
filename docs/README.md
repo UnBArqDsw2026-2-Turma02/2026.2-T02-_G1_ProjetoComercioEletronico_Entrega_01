@@ -14,12 +14,12 @@ Demais diretrizes constam no Moodle.
 # Nome do Projeto
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 01<br>
 **Entrega**: 01<br>
 
 ## Alunos
 |Matrícula | Aluno |
-| -- | -- |
+| -------- | ----- |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
