@@ -35,7 +35,7 @@ O conteúdo aqui presente serve como a fundação do projeto, contemplando, alé
 
 Acesse a documentação oficial do grupo publicada via Docsify:
 
-**[Acessar Documentação do Projeto](https://UnBArqDsw2026-2-Turma02.github.io/2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01/)**
+**[Acessar Documentação do Projeto](https://unbarqdsw2026-2-turma02.github.io/2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01/#/)**
 
 ---
 ## 📁 Estrutura da Documentação (Entrega 1 - Base)
