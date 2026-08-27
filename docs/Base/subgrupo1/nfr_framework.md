@@ -48,7 +48,7 @@ Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser
 
 **Figura 1:** NFR Framework do Fluxo A
 
-![NFR Framework](Base/assets/Subgrupo1.1.2/nfr_subgrupo01.svg)
+![NFR Framework](../assets/nfr_subgrupo01.svg)
 
 *Autor: [Dylan Cavalcante](https://github.com/dylancavalcante)*
 
