@@ -53,7 +53,7 @@ No caso da **Legibilidade do Conteúdo**, a avaliação também evidenciou uma c
 <p align="center"><b>Figura 1</b> - SIG de Acessibilidade da Decathlon na notação do NFR Framework</p>
 
 <p align="center">
-  <img src="../assets/Subgrupo1.1.2/SIGNFRDecathlon.png" alt="SIG de Acessibilidade da Decathlon" width="800">
+  <img src="Base/assets/Subgrupo1.1.2/SIGNFRDecathlon.png" alt="SIG de Acessibilidade da Decathlon" width="800">
 </p>
 
 <p align="center"><sub>Fonte: Elaborado pelos autores (Diassis Bezerra Nascimento, Nayra Silva Nery e Uires Carlos de Oliveira), 2026.</sub></p>
