@@ -1,3 +1,19 @@
+# Rich Picture
+
+O **Rich Picture** é uma ferramenta de modelagem visual utilizada para representar, de forma rica e informal, um problema, processo ou sistema, incluindo seus elementos, atores, relações e conflitos. Sua principal vantagem é facilitar o entendimento compartilhado de uma situação complexa antes de partir para soluções técnicas, permitindo enxergar o "todo" de maneira mais intuitiva do que textos ou diagramas formais.
+
+## [Objetivo da análise](#objetivo-da-análise)
+
+Neste projeto, foram analisados os artefatos generalistas do sistema, e a partir dessa análise foi escolhido o processo de login e a segurança do usuário como foco para o desenvolvimento do Rich Picture. Com base no relatório de casos de teste realizado sobre esse artefato, foi possível identificar falhas e pontos de atenção relacionados à autenticação dos usuários, que serviram de base para a construção da representação visual.
+
+**Figura 1:** Rich Picture
+
+![Rich Picture do processo de login](../assets/login.png)
+
+*Autor: [Mariana Ribeiro](https://github.com/marianagonzaga0)*
+
+A construção do Rich Picture seguiu um processo iterativo. Inicialmente, foram feitos rascunhos à mão para organizar as ideias, os atores envolvidos e as relações entre os elementos do sistema. Em seguida, essa versão inicial foi refinada e formalizada utilizando a ferramenta Canva, resultando na representação final apresentada acima.
+
 # NFR Framework
 
 O **NFR Framework (Non-Functional Requirements Framework)** é uma abordagem orientada a objetivos utilizada para elicitar, analisar, especificar e avaliar Requisitos Não Funcionais (NFRs). O framework trabalha com **softgoals**, que representam preocupações de qualidade, e com suas interdependências, permitindo explicitar como diferentes decisões de projeto contribuem positiva ou negativamente para essas preocupações.
@@ -46,7 +62,7 @@ A análise também considera as **interdependências entre os NFRs**, especialme
 
 Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser refinadas em requisitos não funcionais que sejam suficientemente claros, objetivos e testáveis. Os autores também destacam o uso de cenários para apoiar a avaliação dos NFRs. [**[1]**](#bibliografia)
 
-**Figura 1:** NFR Framework do Fluxo A
+**Figura 2:** NFR Framework do Fluxo A
 
 ![NFR Framework](../assets/nfr_subgrupo01.svg)
 
@@ -143,3 +159,4 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
