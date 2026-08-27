@@ -1,5 +1,9 @@
 # NFR Framework
 
+| **Responsável** | **Matrícula**|
+| --- | ---|
+| Dylan Portela Cavalcante | 23/1026984 |
+
 O **NFR Framework (Non-Functional Requirements Framework)** é uma abordagem orientada a objetivos utilizada para elicitar, analisar, especificar e avaliar Requisitos Não Funcionais (NFRs). O framework trabalha com **softgoals**, que representam preocupações de qualidade, e com suas interdependências, permitindo explicitar como diferentes decisões de projeto contribuem positiva ou negativamente para essas preocupações.
 
 No presente trabalho, o NFR Framework foi aplicado ao **Fluxo A da plataforma de e-commerce da Decathlon Brasil**, com foco em **Login, Perfil de Usuário e Segurança**, enfatizando a relação entre **Segurança, Usabilidade, Privacidade e Confiança do Usuário**.
