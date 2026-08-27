@@ -1,41 +1,193 @@
 # Foco 02: Engenharia Reversa & BPMN
 
-Este foco reúne o processo de engenharia reversa aplicado pela Sub-equipe 02 e a modelagem BPMN relacionada ao fluxo analisado.
+Este foco reúne o processo de Engenharia Reversa realizado pela Sub-equipe 02 no site de comércio eletrônico da Decathlon e a modelagem, na notação BPMN, do fluxo de busca, seleção e compra de produtos identificado durante a análise.
 
 ## Participantes
 
-| Participante |
-| --- |
-| Diassis Bezerra Nascimento |
-| Nayra Silva Nery |
-| Uires Carlos de Oliveira |
+| Participante | Atuação |
+| --- | --- |
+| Uires Carlos de Oliveira | Autor principal |
+| Diassis Bezerra Nascimento | Coparticipante |
+| Nayra Silva Nery | Coparticipante |
 
 ## Metodologia
 
-A Sub-equipe 02 analisou o subdomínio de navegação e descoberta de conteúdo da plataforma de comércio eletrônico da Decathlon, observando a interação do usuário com a homepage, campanhas, promoções, modalidades, categorias e listagens de produtos.
+O desenvolvimento do Foco 02 foi conduzido por Uires Carlos de Oliveira, como autor principal, com a coparticipação de Diassis Bezerra Nascimento e Nayra Silva Nery.
 
-O processo de engenharia reversa deve registrar:
+A Sub-equipe 02 adotou uma abordagem colaborativa e iterativa para analisar o subdomínio de navegação, descoberta, seleção e compra de produtos na plataforma de comércio eletrônico da Decathlon.
 
-- contexto do fluxo analisado;
-- etapas percorridas no software;
-- ferramentas utilizadas para observação e modelagem;
-- achados relevantes durante a navegação;
-- relação entre os achados e a modelagem BPMN.
+Como a equipe não teve acesso ao código-fonte, ao banco de dados, às APIs ou à documentação interna da plataforma, a Engenharia Reversa foi realizada a partir da observação da interface e do comportamento externamente visível do sistema.
+
+A investigação combinou duas estratégias:
+
+- **observação estática:** identificação dos menus, campos de pesquisa, filtros, botões, banners, carrosséis, cards e demais elementos visuais;
+- **análise dinâmica:** execução de ações de pesquisa, navegação por modalidades e categorias, aplicação de filtros, ordenação, seleção de produtos, escolha de variações, inclusão no carrinho e avanço no processo de compra.
+
+As evidências encontradas foram registradas em documentos produzidos pela equipe. Posteriormente, as ações e decisões observadas foram organizadas em um fluxo de maior nível de abstração e representadas na notação BPMN.
+
+Foram utilizados:
+
+- o site da Decathlon como objeto de análise;
+- o Microsoft Teams para comunicação e alinhamento;
+- documentos de texto para registrar as evidências;
+- o Bizagi Modeler para elaborar o BPMN;
+- o GitHub para armazenar e versionar os artefatos.
 
 ## Processo de engenharia reversa aplicado
 
-A engenharia reversa foi utilizada para observar o comportamento do sistema existente e reconstruir, a partir da navegação realizada, o fluxo de descoberta de produtos. A análise considerou a forma como o usuário parte da homepage, acessa campanhas ou categorias, visualiza listas de produtos e utiliza elementos da interface para localizar itens de interesse.
+A Engenharia Reversa foi aplicada ao site da Decathlon com o objetivo de compreender como o usuário navega pela plataforma, localiza um produto, consulta suas informações, adiciona-o ao carrinho e avança para a finalização da compra.
 
-Esse levantamento apoia a modelagem BPMN por transformar ações observadas na interface em atividades, decisões e fluxos compreensíveis para a equipe.
+A análise partiu dos elementos concretos da interface e das respostas apresentadas pelo sistema. Os menus, botões, campos, filtros, resultados, páginas e decisões observadas foram transformados em atividades e fluxos de maior nível de abstração.
+
+O processo foi executado nas seguintes etapas:
+
+### 1. Definição do escopo
+
+O escopo da análise compreendeu:
+
+- homepage;
+- menus e modalidades esportivas;
+- categorias;
+- pesquisa de produtos;
+- filtros e ordenação;
+- listagem de produtos;
+- página individual do produto;
+- escolha de cor e tamanho;
+- inclusão no carrinho;
+- revisão do carrinho;
+- entrega;
+- pagamento;
+- confirmação do pedido.
+
+### 2. Observação da homepage
+
+Na página inicial, foram identificados os menus **Esportes**, **Novidades**, **Feminino**, **Masculino**, **Infantil**, **Acessórios**, **Equipamentos** e **Marcas**.
+
+Também foram observados banners, promoções, campanhas, atalhos rápidos, carrosséis, recomendações, marcas próprias e serviços da Decathlon.
+
+A homepage foi identificada como o ponto inicial para diferentes formas de descoberta de produtos.
+
+### 3. Navegação por modalidade e categoria
+
+A equipe navegou pelas páginas das modalidades **Natação** e **Futebol**. Essas páginas funcionam como áreas temáticas intermediárias, reunindo categorias, campanhas, carrosséis e agrupamentos de produtos.
+
+No fluxo **Home → Futebol → Society**, verificou-se que a seleção da modalidade conduz a uma página temática e, posteriormente, a uma categoria e a uma listagem específica.
+
+A hierarquia recuperada foi:
+
+> **Homepage → modalidade → página temática → categoria → listagem de produtos.**
+
+### 4. Análise da listagem
+
+Na listagem de produtos, foram executadas as seguintes ações:
+
+1. pesquisar um termo;
+2. observar os resultados;
+3. identificar os filtros;
+4. aplicar um filtro;
+5. alterar a ordenação;
+6. abrir um produto.
+
+Foram observados o campo de pesquisa, a quantidade de resultados, os filtros, as opções de ordenação, as imagens, os nomes, as marcas, os preços, os descontos, o cashback, as cores, as avaliações e a identificação do vendedor.
+
+### 5. Análise do produto
+
+Na página individual do produto, foram observados:
+
+- imagens e ampliação;
+- nome e marca;
+- preço, parcelamento e desconto;
+- avaliações;
+- descrição e especificações;
+- cores disponíveis;
+- tamanhos;
+- guia de tamanhos;
+- disponibilidade;
+- seleção da quantidade;
+- cálculo da entrega;
+- retirada em loja;
+- identificação do vendedor;
+- botão para adicionar ao carrinho.
+
+Essa etapa permitiu identificar decisões relacionadas à disponibilidade do produto e à escolha de características obrigatórias, como cor e tamanho.
+
+### 6. Análise do carrinho e da compra
+
+Após adicionar o produto ao carrinho, foram observadas as opções para:
+
+- conferir os produtos;
+- alterar a quantidade;
+- remover produtos;
+- continuar comprando;
+- avançar para a finalização.
+
+Na continuação do fluxo, foram identificadas as etapas de confirmação do endereço, escolha da modalidade de entrega, escolha da forma de pagamento e confirmação do pedido.
+
+### 7. Recuperação do fluxo
+
+A Engenharia Reversa permitiu identificar atividades e decisões como:
+
+- pesquisar ou navegar pelos produtos;
+- aplicar filtros e ordenação;
+- selecionar um produto;
+- verificar sua disponibilidade;
+- escolher cor e tamanho;
+- adicionar o produto ao carrinho;
+- alterar ou remover itens;
+- continuar comprando ou finalizar;
+- selecionar a entrega;
+- selecionar a forma de pagamento;
+- verificar a aprovação do pagamento;
+- confirmar o pedido.
+
+Essas atividades e decisões foram utilizadas para construir o modelo BPMN.
 
 ## Modelagem BPMN
 
-> Espaço reservado para inserção do modelo BPMN produzido pela Sub-equipe 02.
+O modelo BPMN representa o fluxo de busca, seleção e compra de produtos recuperado durante a Engenharia Reversa do site da Decathlon.
 
-Quando o diagrama estiver disponível, recomenda-se adicionar a imagem ou arquivo na pasta `docs/Base/assets/` e referenciá-lo nesta página usando caminho iniciado por `Base/assets/`.
+A modelagem apresenta o comportamento observado na interface e não a implementação interna da plataforma.
+
+O diagrama foi organizado em duas raias:
+
+- **Cliente:** representa as atividades executadas pelo usuário;
+- **Sistema Decathlon:** representa as respostas, validações e atualizações realizadas pelo sistema.
+
+O fluxo começa quando o cliente acessa o site e navega ou pesquisa por produtos. O sistema apresenta os resultados e permite que filtros e opções de ordenação sejam utilizados.
+
+Quando encontra o produto desejado, o cliente abre a página individual, consulta as informações, verifica a disponibilidade e seleciona as características necessárias.
+
+Depois de adicionar o produto ao carrinho, o cliente pode revisar os itens, alterar a quantidade, remover um produto ou continuar comprando. Caso prossiga, seleciona a modalidade de entrega e a forma de pagamento.
+
+O sistema processa o pagamento. Se a operação for aprovada, o pedido é registrado e confirmado. Caso o pagamento não seja aprovado, o cliente pode informar uma nova forma de pagamento.
+
+O modelo utiliza:
+
+- evento de início;
+- atividades;
+- gateways exclusivos;
+- fluxos de sequência;
+- raias de responsabilidade;
+- evento de fim.
+
+<p align="center"><b>Figura 1</b> — Modelo BPMN do fluxo de busca, seleção e compra de produtos da Decathlon</p>
+
+<p align="center">
+  <img src="Base/assets/Subgrupo1.1.2/BPMNFluxoCompraDecathlon.jpg" alt="Modelo BPMN do fluxo de busca, seleção e compra de produtos da Decathlon" width="1000">
+</p>
+
+<p align="center">
+  <sub>Fonte: Elaborado por Uires Carlos de Oliveira, com a coparticipação de Diassis Bezerra Nascimento e Nayra Silva Nery, 2026.</sub>
+</p>
+
+O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repositório:
+
+[Arquivo editável do modelo BPMN](Base/assets/Subgrupo1.1.2/BPMNFluxoCompraDecathlon.bpm)
 
 ## Histórico de versões
 
 | Versão | Data | Descrição | Autores | Revisor |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 02 | Diassis Bezerra Nascimento | Nayra Nery |
+| 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 02 | Diassis Bezerra Nascimento | Nayra Silva Nery |
+| 1.1 | 27/08/2026 | Inclusão da metodologia e do processo de Engenharia Reversa | Uires Carlos de Oliveira | Diassis Bezerra Nascimento |
+| 1.2 | 27/08/2026 | Inclusão da descrição e da imagem do modelo BPMN | Uires Carlos de Oliveira | Nayra Silva Nery |
