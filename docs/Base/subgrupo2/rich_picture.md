@@ -3,7 +3,7 @@
 <p align="center"><b>Figura 1</b> - Rich Picture do subdomínio Projeto Comércio Eletrônico</p>
 
 <p align="center">
-  <img src="../assets/Subgrupo1.1.2/RichPicture.jpg" alt="Rich Picture - Sub-equipe 02" width="600">
+  <img src="Base/assets/Subgrupo1.1.2/RichPicture.jpg" alt="Rich Picture - Sub-equipe 02" width="600">
 </p>
 
 <p align="center"><sub>Fonte: Elaborado pelos autores (Diassis Bezerra Nascimento, Nayra Silva Nery e Uires Carlos de Oliveira), 2026.</sub></p>
@@ -32,4 +32,4 @@ O Rich Picture foi utilizado como ponto de partida para a identificação das pr
 
 | Versão | Data | Descrição | Autores | Revisor |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Documentação do Rich Picture da Sub-equipe 02 | Diassis Bezerra Nascimento | A definir |
+| 1.0 | 27/08/2026 | Documentação do Rich Picture da Sub-equipe 02 | Diassis Bezerra Nascimento | Nayra Nery |
