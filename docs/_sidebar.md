@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/Base/README.md)
+- [Home](/)
 
 - **Base**
   - [1. Desenho de Software](/Base/1.Base.md)
