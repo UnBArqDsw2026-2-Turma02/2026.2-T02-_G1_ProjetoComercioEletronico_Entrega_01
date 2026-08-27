@@ -1,13 +1,13 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/)
+- [Home](/Base/README.md)
 
 - **Base**
   - [1. Desenho de Software](/Base/1.Base.md)
     - [1.2. Sub-equipe 01](/Base/)
         - [1.2.1. Artefato Generalista](/Base/1.2.ArtefatoGeneralista.md)
           - [1.2.1.1 Rich Picture](/Base/)
-        - [1.2.2. NFR Framework](/Base/)
+        - [1.2.2. NFR Framework](/Base/subgrupo1/nfr_framework.md)
         - [1.2.3. Modelagem BPMN: Engenharia Reversa](/Base/)
         - [1.2.4. Aprendizado: IA generativa](/Base/)
     - [1.3. Sub-equipe 02](/Base/)

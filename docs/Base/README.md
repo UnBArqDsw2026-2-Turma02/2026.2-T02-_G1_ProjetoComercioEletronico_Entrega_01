@@ -1,17 +1,4 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_01)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.2(T02)_G1_ProjetoComercioEletronico_Entrega_01*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# G1: Allthetic - Plataforma Web E-commerce
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 01<br>
@@ -32,8 +19,11 @@ Demais diretrizes constam no Moodle.
 | <a href="https://github.com/TerminaKng05"><img src="https://github.com/TerminaKng05.png" width="50" height="50" style="border-radius:50%;"></a> | 23/2022148 | Samuel Felipe Lira de Souza | [TerminaKng05](https://github.com/TerminaKng05) |
 | <a href="https://github.com/uires2023"><img src="https://github.com/uires2023.png" width="50" height="50" style="border-radius:50%;"></a> | 20/2043307 | Uires Carlos de Oliveira | [uires2023](https://github.com/uires2023) |
 
-## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+## Sobre o projeto
+
+A **Alltletic** é uma plataforma de comércio eletrônico voltada para a prática esportiva, desenvolvida com base na experiência e nas principais características observadas no e-commerce da Decathlon. A plataforma tem como objetivo oferecer aos usuários uma experiência simples, segura e intuitiva para acesso à conta, gerenciamento do perfil e interação com os recursos relacionados à prática esportiva.
+
+Neste projeto, são considerados aspectos como **usabilidade, segurança, privacidade, confiança do usuário, experiência do usuário e acessibilidade**, buscando equilibrar mecanismos de proteção com uma experiência de uso clara e eficiente. Dessa forma, o Althetic utiliza os requisitos identificados durante a análise do Fluxo A,B e C da Decathlon como referência para propor uma experiência centrada no usuário.
 
 ## Screenshots da Primeira Entrega
 Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
