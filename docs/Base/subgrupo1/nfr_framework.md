@@ -142,4 +142,4 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | Dylan Cavalcante | A definir |
+| 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |

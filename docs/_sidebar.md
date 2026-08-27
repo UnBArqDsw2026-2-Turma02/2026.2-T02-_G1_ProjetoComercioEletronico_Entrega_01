@@ -4,7 +4,7 @@
 
 - **Base**
   - [1. Desenho de Software](Base/1.Base.md)
-    - [1.2. Sub-equipe 01](Base/)
+    - [1.2. Sub-equipe 01](Base/subgrupo1/apresentacao_subgrupo.md)
         - [1.2.1. Artefato Generalista](Base/1.2.ArtefatoGeneralista.md)
           - [1.2.1.1 Rich Picture](Base/)
         - [1.2.2. NFR Framework](Base/subgrupo1/nfr_framework.md)
