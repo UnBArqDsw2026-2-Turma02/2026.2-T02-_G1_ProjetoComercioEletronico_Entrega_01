@@ -25,4 +25,4 @@ A Subequipe 01 produziu os seguintes artefatos:
 
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.0 | 27/08/2026 | Criação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
