@@ -26,8 +26,9 @@
     - [1.6. Iniciativas Extras](Base/)
       - [1.7.1. Cronograma](Base/)
       - [1.7.2. Disponibilidade (HEAT MAP)](Base/)
-      - [1.7.3. Reuniões e atas](Base/)
-        - [1.7.3.1. Reunião inicial: 23/08/2026](/atas/)
-      - [1.7.4. Conhecimentos da equipe](Base/)
+      - [1.7.3. Ferramentas Utilizadas](Base/ferrmentas_utilizadas.md) 
+      - [1.7.4. Reuniões e atas]()
+        - [1.7.4.1. Reunião inicial: 23/08/2026](/atas/)
+      - [1.7.5. Conhecimentos da equipe](Base/)
       - [1.7.6. Ferramentas](Base/)
 
