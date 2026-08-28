@@ -8,6 +8,14 @@ O relatório completo utilizado como evidência para ambas as análises pode ser
 
 [**Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
 
+## Participantes
+
+| Participantes |
+| ------------- |
+| Dylan Cavalcante |
+| Mariana Gonzaga |
+
+
 # Rich Picture
 
 O **Rich Picture** é uma ferramenta de modelagem visual utilizada para representar, de forma rica e informal, um problema, processo ou sistema, incluindo seus elementos, atores, relações e conflitos. Sua principal vantagem é facilitar o entendimento compartilhado de uma situação complexa antes de partir para soluções técnicas, permitindo enxergar o "todo" de maneira mais intuitiva do que textos ou diagramas formais.
@@ -170,4 +178,5 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
 | 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
-| 1.1.1 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
