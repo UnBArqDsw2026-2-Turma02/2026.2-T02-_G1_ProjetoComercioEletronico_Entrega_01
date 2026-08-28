@@ -41,7 +41,7 @@ Foram utilizados:
 | :--- | :--- | :--- | :---: | :--- |
 | Diassis Bezerra Nascimento | **Relatório de Engenharia Reversa da Página Inicial da Decathlon** | Análise da homepage da Decathlon com foco em navegabilidade e acessibilidade, contemplando fluxos entre modalidades e categorias, testes exploratórios com teclado e zoom, requisitos recuperados e modelo navegacional. | [Visualizar Relatório (PDF)](Base/assets/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') | Autor do relatório |
 | Nayra Silva Nery | **Relatório de Engenharia Reversa — Funcionalidades, Regras de Negócio e Acessibilidade da Decathlon** | Análise de fluxos e comportamentos da plataforma Decathlon, abrangendo promoções, Clube Decathlon, novidades e cartão-presente, com recuperação de requisitos funcionais, regras de negócio, requisitos não funcionais de acessibilidade e registro de inconsistências observadas. | [Visualizar Relatório (PDF)](Base/assets/relatorio-engenharia-reversa-funcionalidades-extras-nayra.pdf ':ignore') | Autora do relatório |
-| Uires Carlos de Oliveira |  |  |  |  |
+| Uires Carlos de Oliveira | **Relatório de Engenharia Reversa — Listagem, Produto e Carrinho da Decathlon** | Análise do fluxo de descoberta, seleção e inclusão de produtos no carrinho, contemplando menus, pesquisa, filtros, ordenação, informações e variações do produto, testes exploratórios de acessibilidade com teclado e zoom de 200%, além das respostas apresentadas pelo sistema. Os resultados obtidos serviram de base para a elaboração do modelo BPMN. | [Visualizar Relatório (PDF)](Base/assets/Engenharia_Rev.pdf ':ignore') | Autor do relatório BPMN |
 
 ## Processo de engenharia reversa aplicado
 
@@ -203,3 +203,4 @@ O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repos
 | 1.2 | 27/08/2026 | Inclusão da descrição e da imagem do modelo BPMN | Uires Carlos de Oliveira | Nayra Silva Nery |
 | 1.3 | 28/08/2026 | Inclusão da tabela de artefatos de Engenharia Reversa, com o relatório da página inicial da Decathlon e espaços reservados para as contribuições dos demais integrantes | Diassis Bezerra Nascimento | A definir |
 | 1.4 | 28/08/2026 | Inclusão do relatório de Engenharia Reversa  na tabela de artefatos, contemplando funcionalidades, regras de negócio e aspectos de acessibilidade da Decathlon | Nayra Silva Nery | Diassis Bezerra Nascimento  |
+| 1.5 | 28/08/2026 | Inclusão do relatório de Engenharia Reversa de listagem, produto e carrinho da Decathlon, contemplando pesquisa, filtros, ordenação, acessibilidade por teclado e zoom de 200% | Uires Carlos de Oliveira | Nayra Silva Nery |
