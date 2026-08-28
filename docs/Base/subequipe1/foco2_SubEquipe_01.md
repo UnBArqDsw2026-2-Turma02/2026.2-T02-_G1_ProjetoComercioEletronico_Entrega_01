@@ -123,7 +123,7 @@ A lógica dos diagramas foi validada a partir das observações realizadas duran
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 01 | [Samuel Felipe](https://github.com/TerminaKng05) | ----- |
-| 1.1 | 27/08/2026 | Adição das informações sobre a modelagem BPMN | [Samuel Felipe](https://github.com/TerminaKng05) | ----- |
-| 1.2 | 27/08/2026 | Correção links quebrados| [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
-| 1.3 | 28/08/2026 | Adição da introdução e contexto| [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 01 | [Samuel Felipe](https://github.com/TerminaKng05) | [Mariana Ribeiro](https://github.com/marianagonzaga0) |
+| 1.1 | 27/08/2026 | Adição das informações sobre a modelagem BPMN | [Samuel Felipe](https://github.com/TerminaKng05) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
+| 1.2 | 27/08/2026 | Correção links quebrados| [Dylan Cavalcante](https://github.com/dylancavalcante) | [Mariana Ribeiro](https://github.com/marianagonzaga0) |
+| 1.3 | 28/08/2026 | Adição da introdução e contexto| [Mariana Ribeiro](https://github.com/marianagonzaga0) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
