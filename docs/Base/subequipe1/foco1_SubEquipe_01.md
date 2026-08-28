@@ -8,14 +8,6 @@ O relatório completo utilizado como evidência para ambas as análises pode ser
 
 [**Relatório de avaliação do Fluxo A - Decathlon**](../assets/relatorio-casos-de-teste.pdf) 
 
-## Participantes
-
-| Participantes |
-| ------------- |
-| Dylan Cavalcante |
-| Mariana Gonzaga |
-| Rafaela Andrea |
-
 
 # Rich Picture
 
@@ -25,7 +17,8 @@ O **Rich Picture** é uma ferramenta de modelagem visual utilizada para represen
 
 ![Rich Picture do processo de login](../assets/login.png)
 
-*Autora: [Mariana Ribeiro](https://github.com/marianagonzaga0)*
+*Autoras: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra)*
+*Coautores: [Dylan Cavalcante](https://github.com/dylancavalcante), [Samuel Felipe](https://github.com/TerminaKng05)*
 
 ## [Metodologia](#metodologia)
 
@@ -35,7 +28,7 @@ A construção do Rich Picture seguiu um processo iterativo. Inicialmente, foram
 
 ![Processo de elaboração do Rich Picture](../assets/rascunho_rich_picture.jpg)
 
-*Autora: [Mariana Ribeiro](https://github.com/marianagonzaga0)*
+*Autoras: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra)*
 
 # NFR Framework
 
@@ -86,6 +79,8 @@ Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser
 ![NFR Framework](../assets/nfr_subgrupo01.svg)
 
 *Autor: [Dylan Cavalcante](https://github.com/dylancavalcante)*
+*Coautores: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra) , [Samuel Felipe](https://github.com/TerminaKng05)*
+
 
 ## Principais achados da avaliação
 
@@ -181,3 +176,5 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
 | 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
 | 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.4 | 27/08/2026 | Atualização Autores | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+
