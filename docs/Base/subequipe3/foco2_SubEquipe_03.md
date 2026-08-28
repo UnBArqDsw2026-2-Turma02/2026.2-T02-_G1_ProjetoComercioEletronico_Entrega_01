@@ -4,7 +4,7 @@ Modelagem do processo de pagamento do checkout da Decathlon Brasil, elaborada em
 
 ## Diagrama
 
-Fonte editável: [`decathlon-fluxo-pagamento_subequipe3.bpmn`](Base/assets/decathlon-fluxo-pagamento_subequipe3.bpmn)
+Fonte editável: [`decathlon-fluxo-pagamento_subequipe3.bpmn`](Base/assets/decathlon-fluxo-pagamento_subequipe3.bpmn ':ignore')
 
 ## Atores e raias (pools / lanes)
 

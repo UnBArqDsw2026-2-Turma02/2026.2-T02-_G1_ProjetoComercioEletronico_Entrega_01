@@ -182,7 +182,7 @@ O modelo utiliza:
 
 O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repositório:
 
-[Arquivo editável do modelo BPMN](Base/assets/nota_BPMN.jpg)
+[Arquivo editável do modelo BPMN](Base/assets/nota_BPMN.jpg ':ignore')
 
 ## Histórico de versões
 
