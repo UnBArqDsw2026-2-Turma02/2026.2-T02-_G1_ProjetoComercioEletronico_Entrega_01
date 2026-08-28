@@ -5,6 +5,8 @@
 <div align="center">
 
 ![Rich picture de pagamento](../assets/rich_picture_subgrupo3.png)
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Camile Barbosa Gonzaga de Oliveira, Lucas Oliveira Meireles, Letícia de Carvalho dos Santos, 2026.</sub></p>
+
 
 </div>
 
