@@ -4,6 +4,17 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 ---
 
+### Participantes
+
+| **Participante** |
+| --- |
+| Dylan Portela Cavalcante |
+| Rafaela Andrea Radamés Guerra |
+| Mariana Ribeiro Santana Gonzaga |
+| Samuel Felipe Lira de Souza |
+
+---
+
 ### Integrante 1: [Dylan Cavalcante]
 
 | Dimensão | Percepção e Relato |
