@@ -42,3 +42,52 @@ O orquestrador aguarda o retorno de cada meio (evento de mensagem) e converge pa
 - **PayPal**: cobrança automática sobre cartão previamente cadastrado.
 - **Marketplace**: produtos de parceiros têm regras promocionais próprias, exigindo split de pagamento e notificação ao parceiro após confirmação do pedido.
 - **Acessibilidade do checkout**: em zoom de 200%, o formulário de pagamento pode ficar comprimido pela área de resumo do carrinho, motivando o desvio de exceção para Suporte/Atendimento ou abandono da compra.
+
+
+
+
+
+# Engenharia Reversa: Fluxo de Pagamentos 
+## Visão Geral
+
+Esta documentação consolida o estudo de Engenharia Reversa conduzido pela **Sub-equipe 03**, direcionado ao ecossistema de pagamento do e-commerce Decathlon. A investigação mapeou a jornada do consumidor desde a consolidação do carrinho até a resposta da transação financeira. 
+
+Os achados foram modelados por meio de um **Rich Picture** para visão sistêmica e diagramas **BPMN (Business Process Model and Notation)** para representação formal dos processos, identificando gargalos operacionais e de usabilidade.
+
+---
+
+## Cenário de Análise e Desafios Encontrados
+
+A exploração baseou-se em testes ponta a ponta na interface pública da plataforma e simulação de jornadas de compra. O levantamento ocorreu sem acesso ao código-fonte ou documentação interna do sistema, focando no comportamento observável da aplicação.
+
+### Ponto Crítico de Acessibilidade
+Durante os testes de responsividade e acessibilidade, constatou-se que a aplicação do **zoom de 200% na interface** quebra a disposição dos elementos na tela. Esse comportamento oculta e sobrepõe campos essenciais para a inserção dos dados de pagamento, impondo uma barreira severa para usuários que dependem de ampliação de tela.
+
+---
+
+## Cobertura do Estudo
+
+* Validação de itens e valores no Carrinho de Compras;
+* Coleta e validação de informações de cadastro e endereço de entrega;
+* Seleção e processamento de métodos de pagamento;
+* Interface de comunicação e resposta das instituições financeiras (Aprovação/Recusa);
+* Gestão pós-compra (estimativa de frete, prazos e rastreio);
+* Atendimento e suporte ao cliente diante de falhas na transação;
+* Impactos de acessibilidade sob ampliação de tela (zoom 200%).
+
+---
+
+## Execução Prática da Engenharia Reversa
+
+O mapeamento seguiu o fluxo operacional executado pelo cliente final:
+
+1. **Mapeamento da Jornada:** Acompanhamento sequencial de cada etapa do checkout, registrando os pontos de decisão e requisições de dados.
+2. **Inspeção de Interface:** Análise do comportamento dos componentes visuais e tratativas de erro do formulário sob diferentes resoluções e níveis de zoom.
+3. **Diagramação e Síntese:** Consolidação das interações no Rich Picture para evidenciar a relação entre usuário, e-commerce e empresa, refinando-as posteriormente em fluxos BPMN.
+
+## Histórico de versões
+
+| Versão | Data | Descrição | Autores | Revisor |
+| --- | --- | --- | --- | --- |
+| 1.0 | 27/08/2026 | Criação do Bpmn| Camile Barbosa Gonzaga de Oliveira | Letícia de Carvalho dos Santos|
+| 1.1 | 28/08/2026 | Inclusão do tópico sobre engenharia reversa | Letícia de Carvalho dos Santos | A preencher |
