@@ -1,40 +1,47 @@
 # Introdução
 
-Para a elaboração deste trabalho, foram inicialmente analisados os artefatos generalistas disponibilizados para o projeto, sendo escolhido como foco de estudo o processo de **login e segurança do usuário** dentro do fluxo de autenticação e gerenciamento de conta (Fluxo A) da plataforma de e-commerce da Decathlon Brasil.
+O objeto central deste estudo abrange o fluxo: Autenticação, Cadastro e Gestão de Perfil do Usuário do e-commerce da [Decatlhon Brasil](https://www.decathlon.com.br/?utm_id=446506642-1166583788952155&msclkid=091f92b84b35170e8da3f8341b2d1eb0&utm_source=bing&utm_medium=cpc&utm_campaign=br_ct-search_t-perf_nc-brand-nacional_ts-bra_f-cv_o-roas_pnl-ecom_bm-ish_xx-microsoft-ads_&utm_term=esporte%20decathlon&utm_content=yy-institucional-termos-aon_). O trabalho concentra-se na especificação, análise comportamental e modelagem de Requisitos Não-Funcionais(NRFs),com ênfase na relação entre Segurança, Usabilidade, Privacidade e Confiança do Usuário, representados visualmente através de artefatos estruturados que serão mostrados a seguir.
 
-A partir desse artefato, foi realizada uma avaliação prática do fluxo, documentada em um relatório de casos de teste, que serviu como base de evidências para a construção de dois artefatos complementares: o **Rich Picture**, que representa de forma visual e informal o cenário observado, e o **NFR Framework**, que modela formalmente os Requisitos Não Funcionais (NFRs) e as relações entre as preocupações de qualidade identificadas.
+# Metodologia
 
-O relatório completo utilizado como evidência para ambas as análises pode ser consultado abaixo:
+A construção do estudo e pesquisa seguiu uma abordagem empírio/analítica dividida nas seguintes etapas:
 
-[**Relatório de avaliação do Fluxo A - Decathlon**](../assets/relatorio-casos-de-teste.pdf) 
+**1. Elaboração de Casos de Teste:** definição prévia dos cenários de teste, critérios de aceitação, dados de entrada e resultados esperados, visando orientar a execução de validação do sistema e garantir a cobertura dos requisitos funcionais e não-funcionais.
+
+**2. Engenharia Reversa & Avaliação Empírica:** mapeamento comportamental direto da plataforma em execução, inserindo entradas (dados válidos/inválidos, senhas incorretas consecutivas) para capturar respostas da aplicação, falhas de usabilidade e vulnerabilidade de segurança. Os resultados foram consolidados no [Relatório de Casos de Tese](Base/assets/relatorio-casos-de-teste.pdf).
+
+**3. Modelagem Informal (Rich Picture):** elaboração visual do ecossistema observado para elicitar atores, interações e conflitos de interesse de forma intuitiva.
+
+**4. Modelagem Formal de Requisitos Não-Funcionais (NFR Framework):** representação gráfica via Softgoal Interdependency Graph (SIG), decompondo metas de qualidade, operacionalizações, avaliações e identificando trade-offs.
+
+# Ferramentas utilizadas
 
 
-# Rich Picture
+# Artefato 1: Rich Picture
 
 O **Rich Picture** é uma ferramenta de modelagem visual utilizada para representar, de forma rica e informal, um problema, processo ou sistema, incluindo seus elementos, atores, relações e conflitos. Sua principal vantagem é facilitar o entendimento compartilhado de uma situação complexa antes de partir para soluções técnicas, permitindo enxergar o "todo" de maneira mais intuitiva do que textos ou diagramas formais.
 
-**Figura 1:** Rich Picture
+## [Processo de Desenvolvimento:](#processo-de-desenvolvimento)
+**1. Fase Analógica (Rascunho):** Mapeamento manual inicial, limites do sistema e artefatos de dados .
 
-![Rich Picture do processo de login](../assets/login.png)
+**2. Fase Digital (Refinamento):** Formalização visual dos elementos e ícones utilizando a ferramenta Canva.
 
-*Autoras: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra)*
-*Coautores: [Dylan Cavalcante](https://github.com/dylancavalcante), [Samuel Felipe](https://github.com/TerminaKng05)*
-
-## [Metodologia](#metodologia)
-
-A construção do Rich Picture seguiu um processo iterativo. Inicialmente, foram feitos rascunhos à mão para organizar as ideias, os atores envolvidos e as relações entre os elementos do sistema, como representado na figura abaixo. Em seguida, essa versão inicial foi refinada e formalizada utilizando a ferramenta Canva, resultando na representação final apresentada na Figura 1.
-
-**Figura 2:** Rascunho à mão
+**Figura 1:** Rascunho à mão
 
 ![Processo de elaboração do Rich Picture](../assets/rascunho_rich_picture.jpg)
 
-*Autoras: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra)*
+*Autoria: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra)*
 
-# NFR Framework
+**Figura 2:** Rich Picture 
+
+![Rich Picture do processo de login](../assets/login.png)
+
+*Autoria: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra), [Dylan Cavalcante](https://github.com/dylancavalcante), [Samuel Felipe](https://github.com/TerminaKng05)*
+
+
+# Artefato 2: NFR Framework
 
 O **NFR Framework (Non-Functional Requirements Framework)** é uma abordagem orientada a objetivos utilizada para elicitar, analisar, especificar e avaliar Requisitos Não Funcionais (NFRs). O framework trabalha com **softgoals**, que representam preocupações de qualidade, e com suas interdependências, permitindo explicitar como diferentes decisões de projeto contribuem positiva ou negativamente para essas preocupações.
-
-No presente trabalho, o NFR Framework foi aplicado ao **Fluxo A da plataforma de e-commerce da Decathlon Brasil**, com foco em **Login, Perfil de Usuário e Segurança**, enfatizando a relação entre **Segurança, Usabilidade, Privacidade e Confiança do Usuário**.
 
 ## [Objetivo da análise](#objetivo-da-análise)
 
@@ -46,25 +53,25 @@ O modelo busca responder principalmente à seguinte questão:
 
 Essa abordagem considera que os requisitos não funcionais são interdependentes e que uma decisão de projeto pode contribuir positivamente para uma preocupação enquanto prejudica outra. O NFR Framework permite justamente representar essas relações por meio de **decomposições, operacionalizações e contribuições entre softgoals**.
 
-## [Escopo](#escopo)
+## [Escopo e Delimitação](#escopo)
 
-A análise está concentrada no seguinte fluxo:
+A análise está delimitada estritamente às interações do **Fluxo: Autenticação, Cadastro e Gestão de Perfil do Usuário**, contemplando as seguintes etapas:
 
-- Login;
-- Login social;
-- Cadastro;
-- Recuperação de acesso;
-- Alteração de senha;
-- Logout;
-- Gerenciamento do perfil;
-- Proteção das informações da conta;
-- Privacidade e visibilidade dos dados.
+* Login convencional e validação de e-mail;
+* Login social (OAuth) e permissões;
+* Cadastro manual e validação de CPF/OTP;
+* Recuperação de acesso e senha;
+* Autenticação *Passwordless* (Senha de acesso único);
+* Encerramento de sessão (*Logout*) e gestão de cache;
+* Gerenciamento do perfil em painel SSO;
+* Proteção das informações de conta e alteração de credenciais;
+* Privacidade, visibilidade de dados e exclusão de conta (LGPD).
 
-O modelo foi delimitado para o **Fluxo A**, não abrangendo as demais funcionalidades do e-commerce, como busca de produtos, carrinho e pagamento.
+O modelo foi delimitado para o referido fluxo, não abrangendo as demais funcionalidades do e-commerce, como busca de produtos, carrinho e pagamento.
 
-## [Metodologia](#metodologia)
+## [Processo de desenvolvimento](#metodologia)
 
-A construção do NFR Framework foi realizada a partir da observação do comportamento do sistema durante a execução dos cenários definidos para o Fluxo A.
+A construção do NFR Framework foi realizada a partir da observação do comportamento do sistema durante a execução dos cenários definidos para o Fluxo: Autenticação, Cadastro e Gestão de Perfil do Usuário.
 
 Inicialmente, foram identificadas as principais **preocupações de qualidade** relacionadas à experiência de uso. Em seguida, essas preocupações foram refinadas em **NFRs mais específicos**, até alcançar soluções concretas representadas como **Operationalizations**.
 
@@ -78,8 +85,7 @@ Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser
 
 ![NFR Framework](../assets/nfr_subgrupo01.svg)
 
-*Autor: [Dylan Cavalcante](https://github.com/dylancavalcante)*
-*Coautores: [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra) , [Samuel Felipe](https://github.com/TerminaKng05)*
+*Autoria: [Dylan Cavalcante](https://github.com/dylancavalcante), [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra) , [Samuel Felipe](https://github.com/TerminaKng05)*
 
 
 ## Principais achados da avaliação
@@ -159,6 +165,15 @@ O relatório contém os cenários relacionados à enumeração de usuários, log
 ## Literatura utilizada
 
 A construção do modelo foi baseada principalmente no NFR Framework proposto por Chung, Nixon, Yu e Mylopoulos e no conceito de refinamento de preocupações de qualidade em requisitos não funcionais verificáveis.
+
+## Tabela de Contribuições
+
+| Nome do Membro | Contribuições no Foco I |
+| :--- | :--- |
+| [Dylan Cavalcante](https://github.com/dylancavalcante) | CoAutor do Grafo de Interdependência de Softgoals (SIG) no NFR Framework; Coautor do Rich Picture. Participei na elaboração de casos de teste com o grupo e na consolidação dos resultados no formato de relatório, e na modelagem dos requisitos não-funcionais. |
+| [Mariana Ribeiro](https://github.com/marianagonzaga0) | CoAutora do Rich Picture - rascunho e versão final; Coautora do NFR Framework. Participei da elaboração e execução dos casos de teste com o grupo e na elaboração do modelo visual do ecossistema. |
+| [Rafaela Andrea](https://github.com/RadamesGuerra) | CoAutora do Rich Picture - rascunho e versão final; Coautora do NFR Framework. Participei na execução dos casos de teste, captura das respostas da aplicação na avaliação empírica e na modelagem de requisitos não-funcionais. |
+| [Samuel Felipe](https://github.com/TerminaKng05) | Coautor do Rich Picture e Coautor da Estrutura NFR (NFR Framework). Participei da modelagem informal do ecossistema, identificando os elementos observados na avaliação empírica e da modelagem dos requisitos não-funcionais. |
 
 ### Bibliografia
 
