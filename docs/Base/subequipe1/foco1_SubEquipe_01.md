@@ -6,7 +6,7 @@ A partir desse artefato, foi realizada uma avaliação prática do fluxo, docume
 
 O relatório completo utilizado como evidência para ambas as análises pode ser consultado abaixo:
 
-[**Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
+[**Relatório de avaliação do Fluxo A - Decathlon**](../assets/relatorio-casos-de-teste.pdf) 
 
 ## Participantes
 
@@ -14,6 +14,7 @@ O relatório completo utilizado como evidência para ambas as análises pode ser
 | ------------- |
 | Dylan Cavalcante |
 | Mariana Gonzaga |
+| Rafaela Andrea |
 
 
 # Rich Picture

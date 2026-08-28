@@ -15,7 +15,7 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 ---
 
-### Integrante 1: [Dylan Cavalcante]
+### Integrante 1: Dylan Cavalcante
 
 | Dimensão | Percepção e Relato |
 | :--- | :--- |
@@ -24,7 +24,7 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 ---
 
-### Integrante 2: [Mariana]
+### Integrante 2: Mariana Ribeiro Santana Gonzaga
 
 | Dimensão | Percepção e Relato |
 | :--- | :--- |
@@ -33,16 +33,16 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 ---
 
-### Integrante 3: [Rafaela Andrea]
+### Integrante 3: Rafaela Andrea Radamés Guerra
 
 | Dimensão | Percepção e Relato |
 | :--- | :--- |
-| **Lições Aprendidas** | Aprendi a organizar o trabalho colaborativo entre as subequipes e a transformar as observações realizadas durante a análise da plataforma em modelos e documentação. A atividade também contribuiu para compreender melhor a relação entre usabilidade, segurança e experiência do usuário na definição de requisitos não funcionais. |
-| **Uso da IA (Senso Crítico)** | A IA foi utilizada principalmente para auxiliar na pesquisa e compreensão dos conceitos de Engenharia de Requisitos e NFR Framework. Foi necessário revisar as sugestões geradas e confrontá-las com a literatura para evitar interpretações incorretas e manter a consistência dos artefatos produzidos. |
+| **Lições Aprendidas** | Consolidei a prática de planejamento e alinhamento de entregas paralelas em equipes multidisciplinares. Sob a ótica do projeto, aprofundei a capacidade de traduzir a observação empírica da plataforma em artefatos formais de engenharia, compreendendo na prática a relação intriseca entre usabilidade (UX/DCU), requisitos não-funcionais (NFR) e da segurança em arquiteturas de e-commerce. |
+| **Uso da IA (Senso Crítico)** | A IA Generativa atuou como ferramenta de apoio à pesquisa conceitual e aceleração da estruturação inicial de Requisitos Não-Funcionais e Engenharia de Requisitos. No entanto, sua atuação exigiu constante filtragem crítica e validação formal contra a literatura acadêmica da disciplina, garantindo a correção técnica, eliminando inconsistências conceituais e ajustando a modelagem ao escopo real do sistema. |
 
 ---
 
-### Integrante 4: [Samuel]
+### Integrante 4: Samuel
 
 | Dimensão | Percepção e Relato |
 | :--- | :--- |
@@ -54,3 +54,4 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Criação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.1 | 28/08/2026 | Atualização do conteúdo | [Rafaela Andrea](https://github.com/radamesGuerra) | A definir |
