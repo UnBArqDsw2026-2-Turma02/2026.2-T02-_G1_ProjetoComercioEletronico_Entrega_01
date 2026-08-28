@@ -1,13 +1,12 @@
 # Foco 02: Engenharia Reversa e BPMN
 
-Este foco reúne o processo de **Engenharia Reversa** aplicado pela Sub-equipe 01 e a modelagem **BPMN** relacionada aos fluxos analisados.
+## Introdução
 
-## Participantes
+Este documento apresenta os resultados da Engenharia Reversa realizada pela Sub-equipe 01, com foco nos principais fluxos de autenticação e gerenciamento de conta da plataforma analisada. A partir da observação prática desses fluxos, foram elaborados diagramas utilizando a notação **BPMN (Business Process Model and Notation)**, com o objetivo de representar de forma clara e estrutura das interações entre o usuário e o sistema, bem como os pontos de decisão presentes em cada processo.
 
-| Participante |
-| --- |
-| Samuel Felipe |
-| Rafaela |
+## Contexto
+
+Para a realização da Engenharia Reversa, foram inicialmente determinados casos de teste que guiaram a navegação e observação dos fluxos analisados. A análise foi conduzida utilizando **exclusivamente a interface do site base**, sem acesso ou análise ao código-fonte da aplicação, o levantamento das etapas, decisões e comportamentos do sistema foram feito por meio da interação direta com a plataforma, como faria um usuário comum.
 
 ## Escopo
 
@@ -127,3 +126,4 @@ A lógica dos diagramas foi validada a partir das observações realizadas duran
 | 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 01 | [Samuel Felipe](https://github.com/TerminaKng05) | ----- |
 | 1.1 | 27/08/2026 | Adição das informações sobre a modelagem BPMN | [Samuel Felipe](https://github.com/TerminaKng05) | ----- |
 | 1.2 | 27/08/2026 | Correção links quebrados| [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.3 | 28/08/2026 | Adição da introdução e contexto| [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
