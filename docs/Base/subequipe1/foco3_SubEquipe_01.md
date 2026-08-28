@@ -6,13 +6,12 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 ### Participantes
 
-| **Participante** |
-| --- |
-| Dylan Portela Cavalcante |
-| Rafaela Andrea Radamés Guerra |
-| Mariana Ribeiro Santana Gonzaga |
-| Samuel Felipe Lira de Souza |
-
+| **Participante** | **Matrícula**|
+| --- | ---|
+| Dylan Portela Cavalcante |23/1026984 |
+| Rafaela Andrea Radamés Guerra | 23/1031723|
+| Mariana Ribeiro Santana Gonzaga |23/1026993 |
+| Samuel Felipe Lira de Souza | 23/2022148 |
 ---
 
 ### Integrante 1: Dylan Cavalcante
@@ -53,5 +52,5 @@ Esta seção reúne as contribuições individuais dos membros da equipe referen
 
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Criação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
-| 1.1 | 28/08/2026 | Atualização do conteúdo | [Rafaela Andrea](https://github.com/radamesGuerra) | A definir |
+| 1.0 | 27/08/2026 | Criação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | [Rafaela Andrea](https://github.com/radamesGuerra) |
+| 1.1 | 28/08/2026 | Atualização do conteúdo | [Rafaela Andrea](https://github.com/radamesGuerra) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
