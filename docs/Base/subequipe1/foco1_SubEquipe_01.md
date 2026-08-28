@@ -16,6 +16,10 @@ A construção do estudo e pesquisa seguiu uma abordagem empírio/analítica div
 
 # Ferramentas utilizadas
 
+A seguir estão as ferramentas utilizadas para o desenvolvimento do foco 01:
+- Execução dos Testes e Engenharia Reversa: Navegadores Web (Google Chrome/Mozila Firefox);
+- Elaboração do Rich Picture: Desenhos analógicos (rasucho à mão) e Canva para diagrama vetorial final;
+- Documentação e Modelagem NRF: website [DSM3](https://www.cin.ufpe.br/~jhcp/dsm3goals/index.html).
 
 # Artefato 1: Rich Picture
 
@@ -192,4 +196,5 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
 | 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
 | 1.4 | 27/08/2026 | Atualização Autores | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.5 | 28/08/2026 | Adição das ferramentas utilizadas | [Samuel Felipe](https://github.com/TerminaKng05) | A definir |
 
