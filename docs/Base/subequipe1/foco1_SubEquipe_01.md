@@ -157,7 +157,7 @@ A rastreabilidade entre a avaliação realizada e a modelagem NFR foi mantida po
 
 O documento completo utilizado para a obtenção dos resultados está disponível abaixo:
 
-[**Abrir Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
+[**Abrir Relatório de Casos de Teste do Fluxo A - Decathlon**](Base/assets/relatorio-casos-de-teste.pdf)
 
 O relatório contém os cenários relacionados à enumeração de usuários, login social, gestão de sessão, cadastro, recuperação de acesso, políticas de visibilidade de dados e alteração de informações sensíveis.
 
