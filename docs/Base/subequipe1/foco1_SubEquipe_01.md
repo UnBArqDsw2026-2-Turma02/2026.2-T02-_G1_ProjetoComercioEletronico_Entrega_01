@@ -6,7 +6,16 @@ A partir desse artefato, foi realizada uma avaliação prática do fluxo, docume
 
 O relatório completo utilizado como evidência para ambas as análises pode ser consultado abaixo:
 
-[**Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
+[**Relatório de avaliação do Fluxo A - Decathlon**](../assets/relatorio-casos-de-teste.pdf) 
+
+## Participantes
+
+| Participantes |
+| ------------- |
+| Dylan Cavalcante |
+| Mariana Gonzaga |
+| Rafaela Andrea |
+
 
 # Rich Picture
 
@@ -170,4 +179,5 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
 | 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
-| 1.1.1 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
