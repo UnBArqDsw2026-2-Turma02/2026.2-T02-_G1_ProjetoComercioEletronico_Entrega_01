@@ -1,12 +1,46 @@
+# Introdução
+
+Para a elaboração deste trabalho, foram inicialmente analisados os artefatos generalistas disponibilizados para o projeto, sendo escolhido como foco de estudo o processo de **login e segurança do usuário** dentro do fluxo de autenticação e gerenciamento de conta (Fluxo A) da plataforma de e-commerce da Decathlon Brasil.
+
+A partir desse artefato, foi realizada uma avaliação prática do fluxo, documentada em um relatório de casos de teste, que serviu como base de evidências para a construção de dois artefatos complementares: o **Rich Picture**, que representa de forma visual e informal o cenário observado, e o **NFR Framework**, que modela formalmente os Requisitos Não Funcionais (NFRs) e as relações entre as preocupações de qualidade identificadas.
+
+O relatório completo utilizado como evidência para ambas as análises pode ser consultado abaixo:
+
+[**Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
+
+## Participantes
+
+| Participantes |
+| ------------- |
+| Dylan Cavalcante |
+| Mariana Gonzaga |
+
+
+# Rich Picture
+
+O **Rich Picture** é uma ferramenta de modelagem visual utilizada para representar, de forma rica e informal, um problema, processo ou sistema, incluindo seus elementos, atores, relações e conflitos. Sua principal vantagem é facilitar o entendimento compartilhado de uma situação complexa antes de partir para soluções técnicas, permitindo enxergar o "todo" de maneira mais intuitiva do que textos ou diagramas formais.
+
+**Figura 1:** Rich Picture
+
+![Rich Picture do processo de login](../assets/login.png)
+
+*Autora: [Mariana Ribeiro](https://github.com/marianagonzaga0)*
+
+## [Metodologia](#metodologia)
+
+A construção do Rich Picture seguiu um processo iterativo. Inicialmente, foram feitos rascunhos à mão para organizar as ideias, os atores envolvidos e as relações entre os elementos do sistema, como representado na figura abaixo. Em seguida, essa versão inicial foi refinada e formalizada utilizando a ferramenta Canva, resultando na representação final apresentada na Figura 1.
+
+**Figura 2:** Rascunho à mão
+
+![Processo de elaboração do Rich Picture](../assets/rascunho_rich_picture.jpg)
+
+*Autora: [Mariana Ribeiro](https://github.com/marianagonzaga0)*
+
 # NFR Framework
 
 O **NFR Framework (Non-Functional Requirements Framework)** é uma abordagem orientada a objetivos utilizada para elicitar, analisar, especificar e avaliar Requisitos Não Funcionais (NFRs). O framework trabalha com **softgoals**, que representam preocupações de qualidade, e com suas interdependências, permitindo explicitar como diferentes decisões de projeto contribuem positiva ou negativamente para essas preocupações.
 
 No presente trabalho, o NFR Framework foi aplicado ao **Fluxo A da plataforma de e-commerce da Decathlon Brasil**, com foco em **Login, Perfil de Usuário e Segurança**, enfatizando a relação entre **Segurança, Usabilidade, Privacidade e Confiança do Usuário**.
-
-A análise foi realizada considerando os resultados obtidos durante a avaliação do fluxo de autenticação e gerenciamento da conta. O levantamento completo pode ser consultado no documento utilizado como evidência da análise:
-
-[**Relatório de avaliação do Fluxo A - Decathlon**](sandbox:/mnt/data/teste%20-%20Decathlon.pdf)
 
 ## [Objetivo da análise](#objetivo-da-análise)
 
@@ -46,7 +80,7 @@ A análise também considera as **interdependências entre os NFRs**, especialme
 
 Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser refinadas em requisitos não funcionais que sejam suficientemente claros, objetivos e testáveis. Os autores também destacam o uso de cenários para apoiar a avaliação dos NFRs. [**[1]**](#bibliografia)
 
-**Figura 1:** NFR Framework do Fluxo A
+**Figura 3:** NFR Framework do Fluxo A
 
 ![NFR Framework](../assets/nfr_subgrupo01.svg)
 
@@ -143,3 +177,6 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
+| 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
+| 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
