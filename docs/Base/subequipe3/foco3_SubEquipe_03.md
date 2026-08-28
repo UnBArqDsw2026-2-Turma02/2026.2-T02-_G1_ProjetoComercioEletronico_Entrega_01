@@ -1,0 +1,5 @@
+### FOCO_03: IA Generativa
+
+|Letícia de Carvalho dos Santos| 
+* Uso da IA Generativa: Utilizei a IA Generativa como ferramenta de validação e crítica técnica para o *Rich Picture*. Enviei a versão inicial do diagrama para analisar se estava de acordo com o Rich Picture, e a apontar quais pontos precisavam ser melhorados.
+* Lições Aprendidas: Compreendi a diferença fundamental entre um fluxograma sequencial (processos) e um *Rich Picture* (ecossistema de problemas e atores). Aprendi a identificar como problemas pontuais de acessibilidade e *frontend* geram impactos diretos na arquitetura de software e nos objetivos estratégicos do negócio. Mas em um momento em que pedi uma foto do meu esboço com as alterações que ela sugeriu ela deu uma alucinada, tive que buscar imagens na internet para entender melhor como melhorar meu Rich Picture.
