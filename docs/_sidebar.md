@@ -4,7 +4,7 @@
 
 * **1. Desenho de Software (Base)**
   * [Visão Geral](Base/1.Base.md)
-  <!-- * [Participações na Base](Base/1.2.ParticipacoesBase.md) -->
+  [Participações na Base](Base/1.2.ParticipacoesBase.md)
   * [Iniciativas Extras](Base/1.3.IniciativasExtras.md)
   * [Ferramentas Utilizadas](Base/ferrmentas_utilizadas.md)
 
