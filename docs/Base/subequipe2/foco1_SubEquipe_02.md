@@ -119,3 +119,4 @@ De forma resumida, a rastreabilidade pode ser representada como:
 | Versão | Data | Descrição | Autores | Revisor |
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Criação da página do Foco 01 da Sub-equipe 02 | Diassis Bezerra Nascimento | Nayra Nery |
+| 1.1 | 28/08/2026 | Contribuição na elaboração do Rich Picture e do SIG na notação do NFR Framework, incluindo pesquisas, análise dos requisitos de acessibilidade e indicação da ferramenta diagrams.net | Uires Carlos de Oliveira | Nayra Nery |
