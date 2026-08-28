@@ -173,7 +173,7 @@ O modelo utiliza:
 <p align="center"><b>Figura 1</b> — Modelo BPMN do fluxo de busca, seleção e compra de produtos da Decathlon</p>
 
 <p align="center">
-  <img src="Base/assets/Subgrupo1.1.2/BPMNFluxoCompraDecathlon.jpg" alt="Modelo BPMN do fluxo de busca, seleção e compra de produtos da Decathlon" width="1000">
+  <img src="Base/assets/nota_BPMN.jpg" alt="Modelo BPMN do fluxo de busca, seleção e compra de produtos da Decathlon" width="1000">
 </p>
 
 <p align="center">
@@ -182,7 +182,7 @@ O modelo utiliza:
 
 O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repositório:
 
-[Arquivo editável do modelo BPMN](Base/assets/Subgrupo1.1.2/BPMNFluxoCompraDecathlon.bpm)
+[Arquivo editável do modelo BPMN](Base/assets/nota_BPMN.jpg)
 
 ## Histórico de versões
 
