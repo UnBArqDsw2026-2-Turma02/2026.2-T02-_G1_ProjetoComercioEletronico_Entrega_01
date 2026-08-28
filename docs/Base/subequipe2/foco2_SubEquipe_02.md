@@ -18,6 +18,8 @@ A Sub-equipe 02 adotou uma abordagem colaborativa e iterativa para analisar o su
 
 Como a equipe não teve acesso ao código-fonte, ao banco de dados, às APIs ou à documentação interna da plataforma, a Engenharia Reversa foi realizada a partir da observação da interface e do comportamento externamente visível do sistema.
 
+Durante a análise, foram observados diferentes fluxos e páginas da Decathlon, incluindo a página inicial, menus de navegação, páginas de modalidade, categorias, listagens de produtos, página individual de produto, carrinho e etapas de finalização da compra. A organização dos registros de Engenharia Reversa foi planejada em três documentos individuais da Sub-equipe 02, sendo um documento de Diassis Bezerra Nascimento, um de Nayra Silva Nery e um de Uires Carlos de Oliveira.
+
 A investigação combinou duas estratégias:
 
 - **observação estática:** identificação dos menus, campos de pesquisa, filtros, botões, banners, carrosséis, cards e demais elementos visuais;
@@ -32,6 +34,14 @@ Foram utilizados:
 - documentos de texto para registrar as evidências;
 - o Bizagi Modeler para elaborar o BPMN;
 - o GitHub para armazenar e versionar os artefatos.
+
+## Artefatos de Engenharia Reversa
+
+| Integrante | Artefato / Documento | Descrição e objetivo | Link do comprobatório | Contribuição |
+| :--- | :--- | :--- | :---: | :--- |
+| Diassis Bezerra Nascimento | **Relatório de Engenharia Reversa da Página Inicial da Decathlon** | Análise da homepage da Decathlon com foco em navegabilidade e acessibilidade, contemplando fluxos entre modalidades e categorias, testes exploratórios com teclado e zoom, requisitos recuperados e modelo navegacional. | [Visualizar Relatório (PDF)](Base/assets/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') | Autor do relatório |
+| Nayra Silva Nery |  |  |  |  |
+| Uires Carlos de Oliveira |  |  |  |  |
 
 ## Processo de engenharia reversa aplicado
 
@@ -191,3 +201,4 @@ O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repos
 | 1.0 | 27/08/2026 | Criação da página do Foco 02 da Sub-equipe 02 | Diassis Bezerra Nascimento | Nayra Silva Nery |
 | 1.1 | 27/08/2026 | Inclusão da metodologia e do processo de Engenharia Reversa | Uires Carlos de Oliveira | Diassis Bezerra Nascimento |
 | 1.2 | 27/08/2026 | Inclusão da descrição e da imagem do modelo BPMN | Uires Carlos de Oliveira | Nayra Silva Nery |
+| 1.3 | 28/08/2026 | Inclusão da tabela de artefatos de Engenharia Reversa, com o relatório da página inicial da Decathlon e espaços reservados para as contribuições dos demais integrantes | Diassis Bezerra Nascimento | A definir |
