@@ -108,6 +108,8 @@ Os achados observados durante a avaliação serviram como base para a definiçã
 | Nenhum e-mail de alteração de senha foi recebido | Segurança / Usabilidade | Feedback sobre ações críticas | Indica uma preocupação relacionada à comunicação de alterações importantes da conta. |
 | O sistema rejeitou uma senha que já havia sido utilizada anteriormente | Segurança | Proteção contra reutilização de senha | Evidencia a existência de uma regra relacionada à proteção das credenciais. |
 
+*Autoria: [Dylan Cavalcante](https://github.com/dylancavalcante), [Mariana Ribeiro](https://github.com/marianagonzaga0), [Rafaela Andrea](https://github.com/RadamesGuerra) , [Samuel Felipe](https://github.com/TerminaKng05)*
+
 Os achados relativos ao login social estão registrados no relatório de avaliação. O comportamento do logout também foi registrado durante a execução do cenário correspondente. A alteração de senha, a mudança de interface e a ausência de notificação por e-mail foram observadas nas etapas finais da avaliação.
 
 ## Claims
