@@ -1,33 +1,26 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/README.md)
+* **[Início](/)**
 
-- **Base**
-  - [1. Desenho de Software](/Base/1.Base.md)
-    - [1.2. Sub-equipe 01](/Base/)
-        - [1.2.1. Artefato Generalista](/Base/1.2.ArtefatoGeneralista.md)
-          - [1.2.1.1 Rich Picture](/Base/)
-        - [1.2.2. NFR Framework](/Base/subgrupo1/nfr_framework.md)
-        - [1.2.3. Modelagem BPMN: Engenharia Reversa](/Base/)
-        - [1.2.4. Aprendizado: IA generativa](/Base/)
-    - [1.3. Sub-equipe 02](/Base/)
-        - [1.3.1. Artefato Generalista](/Base/1.2.ArtefatoGeneralista.md)
-          - [1.3.1.1 Rich Picture](/Base/)
-        - [1.3.2. NFR Framework](/Base/)
-        - [1.3.3. Modelagem BPMN: Engenharia Reversa](/Base/)
-        - [1.3.4. Aprendizado: IA generativa](/Base/)
-    - [1.4. Sub-equipe 03](/Base/)
-        - [1.4.1. Artefato Generalista](/Base/1.2.ArtefatoGeneralista.md)
-          - [1.4.1.1 Rich Picture](/Base/)
-        - [1.4.2. NFR Framework](/Base/)
-        - [1.4.3. Modelagem BPMN: Engenharia Reversa](/Base/)
-        - [1.4.4. Aprendizado: IA generativa](/Base/)
-    - [1.5. Participações](/Base/)
-    - [1.6. Iniciativas Extras](/Base/)
-      - [1.7.1. Cronograma](/Base/)
-      - [1.7.2. Disponibilidade (HEAT MAP)](/Base/)
-      - [1.7.3. Reuniões e atas](Base/)
-        - [1.7.3.1. Reunião inicial: 23/08/2026](/atas/)
-      - [1.7.4. Conhecimentos da equipe](Base/)
-      - [1.7.6. Ferramentas](Base/)
+* **1. Desenho de Software (Base)**
+  * [Visão Geral](Base/1.Base.md)
+  * [Participações na Base](Base/1.2.ParticipacoesBase.md)
+  * [Iniciativas Extras](Base/1.3.IniciativasExtras.md)
+  * [Ferramentas Utilizadas](Base/ferrmentas_utilizadas.md)
 
+* **Entregas por Subequipe**
+  * **Subequipe 01**
+    * [Visão Geral](Base/subequipe1/1.1.1.SubEquipe_01.md)
+    * [Foco 01: Artefatos Generalistas & NFR](Base/subequipe1/foco1_SubEquipe_01.md)
+    * [Foco 02: Engenharia Reversa & BPMN](Base/subequipe1/foco2_SubEquipe_01.md)
+    * [Foco 03: IA Generativa](Base/subequipe1/foco3_SubEquipe_01.md)
+  * **Subequipe 02**
+    * [Visão Geral](Base/subequipe2/1.1.2.SubEquipe_02.md)
+    * [Foco 01: Artefatos Generalistas & NFR](Base/subequipe2/foco1_SubEquipe_02.md)
+    * [Foco 02: Engenharia Reversa & BPMN](Base/subequipe2/foco2_SubEquipe_02.md)
+    * [Foco 03: IA Generativa](Base/subequipe2/foco3_SubEquipe_02.md)
+  * **Subequipe 03**
+    * [Visão Geral](Base/subequipe3/1.1.3.SubEquipe_03.md)
+    * [Foco 01: Artefatos Generalistas & NFR](Base/subequipe3/foco1_SubEquipe_03.md)
+    * [Foco 02: Engenharia Reversa & BPMN](Base/subequipe3/foco2_SubEquipe_03.md)
+    * [Foco 03: IA Generativa](Base/subequipe3/foco3_SubEquipe_03.md)
