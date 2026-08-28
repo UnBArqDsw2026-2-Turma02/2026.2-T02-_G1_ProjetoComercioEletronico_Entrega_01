@@ -96,17 +96,15 @@ Segundo Singh e Tripathi (2012), preocupações abstratas de qualidade devem ser
 
 Os achados observados durante a avaliação serviram como base para a definição dos Claims e para o refinamento dos softgoals do NFR Framework.
 
-**Tabela 1: Principais achados da avaliação do Fluxo A**
-
-| **Achado observado** | **Categoria relacionada** | **Elemento do NFR Framework** | **Implicação para a análise** |
-| --- | --- | --- | --- |
-| O login social exigiu 6 cliques | Usabilidade | Poucas etapas no processo de login | Indica preocupação com a eficiência da interação e com o esforço necessário para autenticação. |
-| Houve confirmação relacionada ao recebimento de e-mails promocionais durante o login social | Usabilidade / Privacidade | Autonomia do usuário | Indica possível mistura entre autenticação e decisão relacionada a comunicações promocionais. |
-| Após o logout, o botão "Voltar" levou novamente à tela de login | Segurança | Logout efetivo / Gestão de sessão | Evidencia comportamento compatível com o encerramento da sessão no fluxo avaliado. |
-| Após a alteração da senha, o usuário foi direcionado para outra interface | Usabilidade | Consistência da interface | Indica uma preocupação relacionada à continuidade e consistência da experiência. |
-| A interface apresentada após a alteração da senha possuía dados diferentes dos encontrados no perfil convencional | Usabilidade / Privacidade | Consistência das informações | Indica possível inconsistência na apresentação e organização das informações da conta. |
-| Nenhum e-mail de alteração de senha foi recebido | Segurança / Usabilidade | Feedback sobre ações críticas | Indica uma preocupação relacionada à comunicação de alterações importantes da conta. |
-| O sistema rejeitou uma senha que já havia sido utilizada anteriormente | Segurança | Proteção contra reutilização de senha | Evidencia a existência de uma regra relacionada à proteção das credenciais. |
+| **Achado observado** | **Categoria relacionada** | **Elemento do NFR Framework** | **Rastreabilidade** | **Implicação para a análise** |
+| --- | --- | --- | --- | --- |
+| O login social exigiu 6 cliques | Usabilidade | Poucas etapas no processo de login | [Imagem](https://imgur.com/a/JgQn1qQ) | Indica preocupação com a eficiência da interação e com o esforço necessário para autenticação. |
+| Houve confirmação relacionada ao recebimento de e-mails promocionais durante o login social | Usabilidade / Privacidade | Autonomia do usuário | [Imagem](https://imgur.com/5w3RVPb) | Indica possível mistura entre autenticação e decisão relacionada a comunicações promocionais. |
+| Após o logout, o botão "Voltar" levou novamente à tela de login | Segurança | Logout efetivo / Gestão de sessão | [Imagem](https://imgur.com/dORblEk) | Evidencia comportamento compatível com o encerramento da sessão no fluxo avaliado. |
+| Após a alteração da senha, o usuário foi direcionado para outra interface | Usabilidade | Consistência da interface | [Imagem](https://imgur.com/0js0lAg) | Indica uma preocupação relacionada à continuidade e consistência da experiência. |
+| A interface apresentada após a alteração da senha possuía dados diferentes dos encontrados no perfil convencional | Usabilidade / Privacidade | Consistência das informações | [Imagem](https://imgur.com/nqwk1Pe) | Indica possível inconsistência na apresentação e organização das informações da conta. |
+| Nenhum e-mail de alteração de senha foi recebido | Segurança / Usabilidade | Feedback sobre ações críticas | [Imagem](https://imgur.com/rFbuVwS) | Indica uma preocupação relacionada à comunicação de alterações importantes da conta. |
+| O sistema rejeitou uma senha que já havia sido utilizada anteriormente | Segurança | Proteção contra reutilização de senha | [Imagem](https://imgur.com/fPRp87t) | Evidencia a existência de uma regra relacionada à proteção das credenciais. |
 
 Os achados relativos ao login social estão registrados no relatório de avaliação. O comportamento do logout também foi registrado durante a execução do cenário correspondente. A alteração de senha, a mudança de interface e a ausência de notificação por e-mail foram observadas nas etapas finais da avaliação.
 
@@ -174,7 +172,7 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 
 | Nome do Membro | Contribuições no Foco I |
 | :--- | :--- |
-| [Dylan Cavalcante](https://github.com/dylancavalcante) | CoAutor do Grafo de Interdependência de Softgoals (SIG) no NFR Framework; Coautor do Rich Picture. Participei na elaboração de casos de teste com o grupo e na consolidação dos resultados no formato de relatório, e na modelagem dos requisitos não-funcionais. |
+| [Dylan Cavalcante](https://github.com/dylancavalcante) | CoAutor do Grafo de Interdependência de Softgoals (SIG) e autor do NFR Framework; Coautor do Rich Picture. Participei na elaboração de casos de teste com o grupo e na consolidação dos resultados no formato de relatório, e na modelagem dos requisitos não-funcionais. |
 | [Mariana Ribeiro](https://github.com/marianagonzaga0) | CoAutora do Rich Picture - rascunho e versão final; Coautora do NFR Framework. Participei da elaboração e execução dos casos de teste com o grupo e na elaboração do modelo visual do ecossistema. |
 | [Rafaela Andrea](https://github.com/RadamesGuerra) | CoAutora do Rich Picture - rascunho e versão final; Coautora do NFR Framework. Participei na execução dos casos de teste, captura das respostas da aplicação na avaliação empírica e na modelagem de requisitos não-funcionais. |
 | [Samuel Felipe](https://github.com/TerminaKng05) | Coautor do Rich Picture e Coautor da Estrutura NFR (NFR Framework). Participei da modelagem informal do ecossistema, identificando os elementos observados na avaliação empírica e da modelagem dos requisitos não-funcionais. |
@@ -191,10 +189,10 @@ A construção do modelo foi baseada principalmente no NFR Framework proposto po
 
 | **Versão** | **Data** | **Descrição** | **Autores** | **Revisor** |
 | --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
-| 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
-| 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
-| 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | A definir |
-| 1.4 | 27/08/2026 | Atualização Autores | [Mariana Ribeiro](https://github.com/marianagonzaga0) | A definir |
-| 1.5 | 28/08/2026 | Adição das ferramentas utilizadas | [Samuel Felipe](https://github.com/TerminaKng05) | A definir |
+| 1.0 | 27/08/2026 | Elaboração inicial do NFR Framework para o Fluxo A | [Dylan Cavalcante](https://github.com/dylancavalcante) | [Mariana Ribeiro](https://github.com/marianagonzaga0) |
+| 1.1 | 27/08/2026 | Elaboração inicial do Rich Picture | [Mariana Ribeiro](https://github.com/marianagonzaga0) | [Samuel Felipe](https://github.com/TerminaKng05) |
+| 1.2 | 27/08/2026 | Introdução e integração dos tópicos | [Mariana Ribeiro](https://github.com/marianagonzaga0) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
+| 1.3 | 27/08/2026 | Adiciona tabela de participação | [Dylan Cavalcante](https://github.com/dylancavalcante) | [Mariana Ribeiro](https://github.com/marianagonzaga0) |
+| 1.4 | 27/08/2026 | Atualização Autores | [Mariana Ribeiro](https://github.com/marianagonzaga0) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
+| 1.5 | 28/08/2026 | Adição das ferramentas utilizadas | [Samuel Felipe](https://github.com/TerminaKng05) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
 
