@@ -4,7 +4,11 @@ Modelagem do processo de pagamento do checkout da Decathlon Brasil, elaborada em
 
 ## Diagrama
 
+<p align="center"><b>Figura 1</b> — Diagrama BPMN - Pagamento do Checkout Decathlon Brasil
+
 ![BPMN](../assets/bpmn_subgrupo3.svg)
+
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Camile Barbosa Gonzaga de Oliveira, Lucas Oliveira Meireles, Letícia de Carvalho dos Santos, 2026.</sub></p>
 
 Fonte editável: [`decathlon-fluxo-pagamento_subequipe3.bpmn`](../assets/decathlon-fluxo-pagamento_subequipe3.bpmn ':ignore')
 
