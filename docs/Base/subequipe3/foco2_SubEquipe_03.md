@@ -4,7 +4,13 @@ Modelagem do processo de pagamento do checkout da Decathlon Brasil, elaborada em
 
 ## Diagrama
 
-Fonte editável: [`decathlon-fluxo-pagamento_subequipe3.bpmn`](Base/assets/decathlon-fluxo-pagamento_subequipe3.bpmn ':ignore')
+<p align="center"><b>Figura 1</b> — Diagrama BPMN - Pagamento do Checkout Decathlon Brasil
+
+![BPMN](../assets/bpmn_subgrupo3.svg)
+
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Camile Barbosa Gonzaga de Oliveira, Lucas Oliveira Meireles, Letícia de Carvalho dos Santos, 2026.</sub></p>
+
+Fonte editável: [`decathlon-fluxo-pagamento_subequipe3.bpmn`](../assets/decathlon-fluxo-pagamento_subequipe3.bpmn ':ignore')
 
 ## Atores e raias (pools / lanes)
 
@@ -42,10 +48,6 @@ O orquestrador aguarda o retorno de cada meio (evento de mensagem) e converge pa
 - **PayPal**: cobrança automática sobre cartão previamente cadastrado.
 - **Marketplace**: produtos de parceiros têm regras promocionais próprias, exigindo split de pagamento e notificação ao parceiro após confirmação do pedido.
 - **Acessibilidade do checkout**: em zoom de 200%, o formulário de pagamento pode ficar comprimido pela área de resumo do carrinho, motivando o desvio de exceção para Suporte/Atendimento ou abandono da compra.
-
-
-
-
 
 # Engenharia Reversa: Fluxo de Pagamentos 
 ## Visão Geral
@@ -90,4 +92,5 @@ O mapeamento seguiu o fluxo operacional executado pelo cliente final:
 | Versão | Data | Descrição | Autores | Revisor |
 | --- | --- | --- | --- | --- |
 | 1.0 | 27/08/2026 | Criação do Bpmn| Camile Barbosa Gonzaga de Oliveira | Letícia de Carvalho dos Santos|
-| 1.1 | 28/08/2026 | Inclusão do tópico sobre engenharia reversa | Letícia de Carvalho dos Santos | A preencher |
+| 1.1 | 28/08/2026 | Inclusão do tópico sobre engenharia reversa | Letícia de Carvalho dos Santos | Lucas Oliveira Meireles |
+| 1.2 | 28/08/2026 | Correção da apresentação da imagem do BPMN, Revisão textual e teórica, ajustes de código da documentação para Pages | A Preencher |

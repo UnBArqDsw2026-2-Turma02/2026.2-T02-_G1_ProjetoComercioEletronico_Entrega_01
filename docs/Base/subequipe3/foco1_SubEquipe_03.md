@@ -67,7 +67,7 @@ O SIG foi construído a partir das preocupações identificadas no Rich Picture.
 
 ![SIG](../assets/Subgrupo1.1.3/sig_pagamento_nuvens.png)
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3, 2026.</sub></p>
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Camile Barbosa Gonzaga de Oliveira, Lucas Oliveira Meireles, Letícia de Carvalho dos Santos, 2026.</sub></p>
 
 Neste SIG, as nuvens representam softgoals e operacionalizações. As linhas com `AND` representam decomposição conjunta. `++` e `+` representam contribuições positivas forte e moderada. As linhas pontilhadas representam compromissos ou riscos.
 
@@ -92,7 +92,7 @@ O Rich Picture identifica atores, expectativas, problemas e relações. O SIG tr
 
 ## Histórico de versões
 
-| Versão | Data | Descrição | Autores | Revisor |
-| --- | --- | --- | --- | --- |
-| 1.0 | 27/08/2026 | Criação do Rich Picture | Letícia de Carvalho dos Santos | Lucas Oliveira Meireles |
-| 1.1 | 27/08/2026 | Inclusão do SIG, claims e rastreabilidade | Lucas Oliveira Meireles | A preencher |
+| Versão | Data | Descrição | Autores | Revisor | Observações de Revisão |
+| --- | --- | --- | --- | --- | ---- |
+| 1.0 | 27/08/2026 | Criação do Rich Picture | Letícia de Carvalho dos Santos | Lucas Oliveira Meireles | Revisão da imagem, revisão dos textos que acompanham a imagem, notada falta de legenda adicional |
+| 1.1 | 27/08/2026 | Inclusão do SIG, claims e rastreabilidade; Legenda do Rich Picture | Lucas Oliveira Meireles | A preencher | A preencher |
