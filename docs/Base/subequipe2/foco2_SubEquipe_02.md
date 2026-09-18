@@ -87,6 +87,35 @@ A hierarquia recuperada foi:
 
 > **Homepage → modalidade → página temática → categoria → listagem de produtos.**
 
+#### Diagrama de Atividades — Navegação por Modalidade
+
+Como complemento à Engenharia Reversa da navegação por modalidades, foi elaborado um Diagrama de Atividades para representar o fluxo de interação entre o usuário e o sistema durante a descoberta e navegação pelos conteúdos da plataforma.
+
+O diagrama representa o acesso à página inicial, a seleção de uma modalidade esportiva, a exibição da página temática correspondente, a escolha entre categorias, campanhas ou conteúdos relacionados, a possibilidade de aplicação de filtros e ordenação e, por fim, a seleção de um item.
+
+<p align="center">
+  <b>Figura 1 — Diagrama de Atividades da Navegação por Modalidade</b>
+</p>
+
+<p align="center">
+  <img
+    src="../assets/diagrama-atividades-navegacao-modalidade.png.jpg"
+    alt="Diagrama de Atividades da Navegação por Modalidade"
+    width="900">
+</p>
+
+<p align="center">
+  <sub>
+    Autores: Nayra Silva Nery, Diassis Bezerra Nascimento e Uires Carlos de Oliveira.
+  </sub>
+</p>
+
+<p align="center">
+  <sub>
+    Fonte: Elaborado pelos autores, 2026.
+  </sub>
+</p>
+
 ### 4. Análise da listagem
 
 Na listagem de produtos, foram executadas as seguintes ações:
@@ -204,3 +233,4 @@ O arquivo editável produzido no Bizagi Modeler encontra-se disponível no repos
 | 1.3 | 28/08/2026 | Inclusão da tabela de artefatos de Engenharia Reversa, com o relatório da página inicial da Decathlon e espaços reservados para as contribuições dos demais integrantes | Diassis Bezerra Nascimento | A definir |
 | 1.4 | 28/08/2026 | Inclusão do relatório de Engenharia Reversa  na tabela de artefatos, contemplando funcionalidades, regras de negócio e aspectos de acessibilidade da Decathlon | Nayra Silva Nery | Diassis Bezerra Nascimento  |
 | 1.5 | 28/08/2026 | Inclusão do relatório de Engenharia Reversa de listagem, produto e carrinho da Decathlon, contemplando pesquisa, filtros, ordenação, acessibilidade por teclado e zoom de 200% | Uires Carlos de Oliveira | Nayra Silva Nery |
+| 1.6 | 17/09/2026 | Inclusão do Diagrama de Atividades da Navegação por Modalidade, contemplando o fluxo entre página inicial, modalidades esportivas, páginas temáticas, categorias, campanhas, filtros, ordenação e seleção de itens | Nayra Silva Nery, Diassis Bezerra Nascimento e Uires Carlos de Oliveira | Diassis Bezerra Nascimento |
